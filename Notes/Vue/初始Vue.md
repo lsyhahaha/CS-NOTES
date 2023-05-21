@@ -49,3 +49,7 @@ button {
 在上述示例中，`.vue` 文件包含了 `<template>`、`<script>` 和 `<style>` 三个部分。`<template>` 定义了组件的 HTML 结构，使用双大括号 `{{}}` 来插值显示 `message` 数据，使用 `@click` 绑定事件处理函数。`<script>` 部分通过 `export default` 导出了一个 Vue 组件对象，包含了 `data` 数据和 `methods` 方法。`<style>` 部分定义了组件的样式规则。
 
 这种单文件组件的结构使得编写和维护组件变得更加方便和可读性更高，同时也提供了更好的组件封装和复用性。
+
+###### Q:音乐推荐系统:sun_with_face:前端代码
+
+![image-20230522001047331](https://cdn.jsdelivr.net/gh/lsyhahaha/Mytypora/img/202305220010639.png)
