@@ -38,9 +38,11 @@
 
    1. 整型
 
+      ```
       int age = 25;
       short weight = 150;
       long population = 1000000;
+      ```
 
    2. 浮点型
 
