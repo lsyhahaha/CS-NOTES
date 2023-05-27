@@ -36,31 +36,88 @@
 
    在C++中，你可以使用这些数据类型来声明变量，存储不同类型的数据，并对其进行操作。以下是使用这些数据类型的基本示例：
 
-   1. 整型
+   整型
 
-      ```
-      int age = 25;
-      short weight = 150;
-      long population = 1000000;
-      ```
+   ```
+   int age = 25;
+   short weight = 150;
+   long population = 1000000;
+   ```
 
-   2. 浮点型
+   浮点型（Floating-point）：
 
-   3. 字符型
+   ```
+   float pi = 3.14;
+   double salary = 5000.50;
+   ```
 
-   4. 布尔型
+   字符型（Character）：
 
-   5. 枚举类型
+   ```
+   char grade = 'A';
+   ```
 
-   6. 指针类型
+   布尔型（Boolean）：
 
-   7. 数组类型
+   ```
+   bool isTrue = true;
+   bool isFalse = false;
+   ```
 
-   8. 字符串类型
+   枚举型（Enumeration）：
 
-   9. 结构体类型
+   ```
+   enum Color { RED, GREEN, BLUE };
+   Color myColor = GREEN;
+   ```
 
-   10. 类型别名
+   指针类型（Pointer）：
+
+   ```
+   int* ptr;  // 声明一个整型指针
+   int number = 10;
+   ptr = &number;  // 将指针指向变量的地址
+   ```
+
+   数组类型（Array）：
+
+   ```
+   int numbers[5] = {1, 2, 3, 4, 5};  // 声明一个整型数组
+   ```
+
+   字符串类型（String）：
+
+   使用字符数组：
+
+   ```
+   char name[] = "John";
+   ```
+
+   或使用`std::string`类：
+
+   ```
+   include <string>
+   std::string greeting = "Hello";
+   ```
+
+   1. 结构体类型（Structure）：
+
+   ```
+   struct Person {
+       std::string name;
+       int age;
+   };
+   Person person1 = {"Alice", 30};
+   ```
+
+   1. 类型别名（Type alias）：
+
+   ```
+   using Distance = double;
+   Distance distance = 5.5;
+   ```
+
+   这只是一些基本的示例，你可以根据需要进行变量的声明和操作。记得在使用这些数据类型之前，你需要包含相应的头文件（如`<string>`）或使用`using`关键字进行命名空间的声明（如`using namespace std;`）来使用C++标准库中提供的数据类型和函数。
 
 4. 如何实现控制流，条件，循环。。。？
 
