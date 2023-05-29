@@ -4,4 +4,6 @@
 
 ![image-20230529155945686](https://cdn.jsdelivr.net/gh/lsyhahaha/Mytypora/img/202305291559023.png)
 
+2.8官方文档：https://docs.scrapy.org/en/2.8/
+
 如何使用：
