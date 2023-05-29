@@ -6,4 +6,6 @@
 
 2.8官方文档：https://docs.scrapy.org/en/2.8/
 
+![image-20230529161315218](https://cdn.jsdelivr.net/gh/lsyhahaha/Mytypora/img/202305291613435.png)
+
 如何使用：
